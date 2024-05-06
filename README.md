@@ -53,6 +53,12 @@ Follow these steps to deploy your application on Surge:
 4. Enter your email and password, and mention the path till the build folder.
 5. You will receive a URL, which you can include in your README or in a separate file for sharing with others.
 
+
+WebSite Published at :- [My Blog Website](https://blog-post-react-app.surge.sh)
+
+**Website domain link** :- Blog-post-react-app.surge.sh
+
+
 ## Additional Notes
 
 - This project utilizes both Redux and Context API for managing state, providing flexibility and scalability.
