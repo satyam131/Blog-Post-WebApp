@@ -1,0 +1,58 @@
+ 
+
+.card-container {
+   margin-top: 25px;
+   padding: 0 15px;
+ }
+ 
+ .buttons-container {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 15px;
+ }
+ 
+ .like-button {
+   flex: 1;
+ }
+
+ .card-out{
+   margin: 150px;
+   margin-top: 40px;
+ }
+ 
+ /* Responsive styles for small screens  */
+ @media (max-width: 768px) {
+   .card-container {
+     margin-top: 15px;
+   }
+ 
+   .buttons-container {
+     flex-direction: column;
+   }
+ 
+   .like-button {
+     margin-top: 10px;
+     margin-left: 2px;
+   }
+
+   .card-out{
+    margin: 30px;
+   }
+
+ }
+ 
+ /* Responsive styles for larger screens  */
+ @media (min-width: 992px) {
+   .card-container {
+     margin-top: 50px;
+   }
+ 
+   .buttons-container {
+     flex-direction: row;
+   }
+ 
+   .like-button {
+     margin-top: 0;
+   }
+ }
+ 
